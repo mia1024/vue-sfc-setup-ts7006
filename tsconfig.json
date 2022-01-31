@@ -1,0 +1,27 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "sourceMap": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "strictPropertyInitialization": false, // open bug in https://github.com/vuejs/vue-loader/issues/1915
+//    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "sourceRoot": "./src",
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"],
+    },
+    "lib": ["dom"],
+    "rootDir": "./src",
+    "jsx": "preserve",
+    "useDefineForClassFields": true,
+    "experimentalDecorators": true,
+    "extendedDiagnostics": true
+  },
+  "include": ["src/**/*"],
+}
